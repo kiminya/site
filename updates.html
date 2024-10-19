@@ -34,6 +34,19 @@
       padding: 3px 30px;
       vertical-align: middle;
     }
+
+    .flex-container {
+      justify-content: center;
+      gap: 10px;
+      display: flex;
+      flex-direction: row;
+    }
+
+    @media (max-width: 800px) {
+      .flex-container {
+        flex-direction: column;
+      }
+    }
   </style>
   <title>Kimmie's Website</title>
   <link rel="icon" type="image/x-icon" href="unas/favicon.ico">
@@ -65,28 +78,28 @@
       </div>
     </div>
   </div>
-  <div class="parent">
-    <div class="child">
-            <div class="window" style="margin: 0 auto; width: fit-content">
-              <div class="title-bar">
-                <div class="title-bar-text">18 October 2024 Changenotes</div>
-                <div class="title-bar-controls">
-                  <button aria-label="Minimize"></button>
-                  <button aria-label="Maximize"></button>
-                  <button aria-label="Close"></button>
-                </div>
-              </div>
-              <div class="window-body">
-                <p> 1. Moved social medias to seperate page </p>
-                <p> 2. Added credits and updates page </p>
-                <p> 3. Updated Neocities mirror, and made nekoweb mirror </p>
-                <p> 5. Replaced main CSS document from 98.css to xp.css</p>
-              </div>
+  <div class="flex-container">
+    <div class="parent">
+      <div class="child">
+        <div class="window" style="margin: 0 auto; width: fit-content">
+          <div class="title-bar">
+            <div class="title-bar-text">18 October 2024 Changenotes</div>
+            <div class="title-bar-controls">
+              <button aria-label="Minimize"></button>
+              <button aria-label="Maximize"></button>
+              <button aria-label="Close"></button>
             </div>
+          </div>
+          <div class="window-body">
+            <p> 1. Moved social medias to seperate page </p>
+            <p> 2. Added credits and updates page </p>
+            <p> 3. Updated Neocities mirror, and made nekoweb mirror </p>
+            <p> 5. Replaced main CSS document from 98.css to xp.css</p>
           </div>
         </div>
       </div>
     </div>
+  </div>
 </body>
 
 </html>
