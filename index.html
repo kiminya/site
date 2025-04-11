@@ -7,7 +7,6 @@
     body {
       margin: 0;
       background-image: url('unas/background.svg');
-      color: white
     }
 
     .parent {
@@ -21,7 +20,7 @@
     }
 
     .flex-container {
-      gap: 10px;
+      gap: 0px;
       display: flex;
       flex-direction: row;
     }
@@ -36,87 +35,61 @@
   <title>Kimi's Website</title>
   <link rel="icon" type="image/x-icon" href="unas/favicon.ico">
   <meta charset="UTF-8" />
-  <link rel="stylesheet" href="https://unpkg.com/xp.css" />
+  <link rel="stylesheet" href="https://unpkg.com/7.css" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
-  <div class="window" style="margin: 10px; width: fit-content;">
+  <div class="window active" style="margin: 10px; width: fit-content;">
     <div class="title-bar">
-      <div class="title-bar-text">Nyavbar
-      </div>
+      <div class="title-bar-text">Nyavbar </div>
       <div class="title-bar-controls">
         <button aria-label="Minimize"></button>
         <button aria-label="Maximize"></button>
         <button aria-label="Close"></button>
       </div>
     </div>
-    <div class="window-body">
-      <div class="status-bar">
-        <p class="status-bar-field"><a href="updates.html">Blog / Updates</a></a></p>
-      </div>
+    <div class="window-body clear has">
+      <p><a href="updates.html">Blog / Updates</a></a></p>
     </div>
   </div>
+
   <div class="flex-container">
     <div class="parent">
-      <div class="window-body">
-        <div class="center">
-          <div class="window" style="margin: 0 auto; width: fit-content">
-            <div class="title-bar">
-              <div class="title-bar-text">:3c</div>
-              <div class="title-bar-controls">
-                <button aria-label="Minimize"></button>
-                <button aria-label="Maximize"></button>
-                <button aria-label="Close"></button>
-              </div>
+      <div class="center">
+        <div class="window" style="margin: 0 auto; width: fit-content">
+          <div class="title-bar">
+            <div class="title-bar-text">:3c</div>
+            <div class="title-bar-controls">
+              <button aria-label="Minimize"></button>
+              <button aria-label="Maximize"></button>
+              <button aria-label="Close"></button>
             </div>
-            <div class="window-body">
-              <table>
-                <tbody>
-                  <tr>
-                    <th>
-                      <img src="unas/bakingcookies_trans.png" style="max-height: 125px; border-radius: 10%;">
-                    </th>
-                    <th>
-                      <h3 style="color:mediumblue; margin-bottom: -10px;">Kimi | Octanoic</h3>
-                    </th>
-                  </tr>
-                </tbody>
-              </table>
-              <p>Welcome to my personal website! This mainly consists of my blog, and other stuff in future.</p>
-            </div>
+          </div>
+          <div class="window-body clear">
+            <table style="background-color: rgba(0, 0, 0, 0); border-collapse: collapse;">
+              <tbody>
+                <tr>
+                  <th>
+                    <img src="unas/bakingcookies_trans.png" style="max-height: 125px; border-radius: 10%;">
+                  </th>
+                  <th>
+                    <h3 style="color:mediumblue; ">Kimi <br> Octanoic</h3>
+                  </th>
+                </tr>
+              </tbody>
+            </table>
+            <p>Welcome to my personal website! This mainly consists of my blog, and other stuff in future.</p>
           </div>
         </div>
       </div>
     </div>
     <div class="parent">
-      <div class="window-body">
-        <div class="center">
-          <div class="window" style="margin: 0 auto; width: fit-content">
-            <div class="title-bar">
-              <div class="title-bar-text">About Me</div>
-              <div class="title-bar-controls">
-                <button aria-label="Minimize"></button>
-                <button aria-label="Maximize"></button>
-                <button aria-label="Close"></button>
-              </div>
-            </div>
-            <div class="window-body">
-              <p>Well, I'm Kimi. I'm a student, and am studying for a degree in Chemistry. </p>
-              <p>I'd go in depth about why I enjoy chemistry but in summary; hehe fun molecules</p>
-              <p>My favourite game genres are RPGs, racing games and shooters.</p>
-              <p>I am a fan of SIGNALIS, Splatoon, Cities Skylines and more, just ask! (preferably on Discord)</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="window-body">
       <div class="center">
-        <div class="window" style="margin: fit-content; width: fit-content;">
+        <div class="window active" style="margin:fit-content; width: fit-content">
           <div class="title-bar">
-            <div class="title-bar-text">Social Medias of Mine</div>
+            <div class="title-bar-text">About Me</div>
             <div class="title-bar-controls">
               <button aria-label="Minimize"></button>
               <button aria-label="Maximize"></button>
@@ -124,54 +97,86 @@
             </div>
           </div>
           <div class="window-body">
-            <p><a href="https://bsky.app/profile/octano.uk">Bluesky</a></p>
-            <p><a href="https://github.com/kiminya">GitHub</a></p>
-            <p><a href="mailto:kimi:octano.uk">Email</a></p>
-            <p><a href="https://www.youtube.com/@octanoic">YouTube</a></p>
-            <p>Discord: octanoic</p>
+            <p>Well, I'm Kimi. I'm a student, and am studying for a degree in Chemistry. </p>
+            <p>I'd go in depth about why I enjoy chemistry but in summary; hehe fun molecules</p>
+            <p>My favourite game genres are RPGs, racing games and shooters.</p>
+            <p>I've also started to play competitive Pokemon, <br> mostly playing draft but you may see me in ya Showdown VGC ladders :3</p>
           </div>
+        </div>
+      </div>
+      <div class="parent">
+        <div class="window active" style="margin:fit-content; width: fit-content">
+          <div class="title-bar">
+            <div class="title-bar-text">Some Games I Like <br>(<b>Bold</b> means ones I play the most)  </div>
+            <div class="title-bar-controls">
+              <button aria-label="Minimize"></button>
+              <button aria-label="Maximize"></button>
+              <button aria-label="Close"></button>
+            </div>
+          </div>
+          <div class="window-body">
+            <p>SIGNALIS <br> <b>Cities Skylines 2</b> <br> Splatoon <br> <b>Counter Strike 2</b> <br> Kingdom Hearts <br> Assetto Corsa
+              <br> <b>Melty Blood</b> <br> Balatro </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="center">
+      <div class="window active" style="margin: fit-content; width: fit-content;">
+        <div class="title-bar">
+          <div class="title-bar-text">Social Medias of Mine</div>
+          <div class="title-bar-controls">
+            <button aria-label="Minimize"></button>
+            <button aria-label="Maximize"></button>
+            <button aria-label="Close"></button>
+          </div>
+        </div>
+        <div class="window-body has-space">
+          <p><a href="https://bsky.app/profile/octano.uk">Bluesky</a></p>
+          <p><a href="https://github.com/kiminya">GitHub</a></p>
+          <p><a href="mailto:kimi:octano.uk">Email</a></p>
+          <p><a href="https://www.youtube.com/@octanoic">YouTube</a></p>
+          <p><a href="https://twitch.tv/KimiNMR">Twitch</a></p>
+          <p>Discord: octanoic</p>
         </div>
       </div>
     </div>
     <div>
       <div class="parent">
         <div class="child">
-          <div class="window-body">
-            <div class="center">
-              <div class="window" style="margin: 10px; max-width: 325px;">
-                <div class="title-bar">
-                  <div class="title-bar-text">Fun badges!</div>
-                  <div class="title-bar-controls">
-                    <button aria-label="Minimize"></button>
-                    <button aria-label="Maximize"></button>
-                    <button aria-label="Close"></button>
-                  </div>
+          <div class="center">
+            <div class="window glass active" style="margin: fit-content; max-width: 325px;">
+              <div class="title-bar">
+                <div class="title-bar-text">Fun badges!</div>
+                <div class="title-bar-controls">
+                  <button aria-label="Minimize"></button>
+                  <button aria-label="Maximize"></button>
+                  <button aria-label="Close"></button>
                 </div>
-                <div class="window-body">
-                  <a href="https://coffeebug.neocities.org/webring"><img
-                      src="https://coffeebug.neocities.org/webringSmall.gif"></a>
-                  <a href="https://nekoweb.org/"><img src="https://buttons.nekoweb.org/buttons/nekoweborg005.gif"></a>
-                  <img
-                    src="https://external-media.spacehey.net/media/se_UDSE2dENEI7efPTGk6fT1GymBgsAVmPmHfbE4Bguc=/https://i.ibb.co/WKPSW2J/5d803765-1499-4d2d-aaeb-4062ba771ebe.gif">
-                  <img
-                    src="https://external-media.spacehey.net/media/slX1-EElelrXm_i9Je6uSED8yRcVvmo92hBdu1M83QTw=/https://i.ibb.co/FH0gd85/799c38ade00e3a289633e27a603ef90b49647b7a.gif">
-                  <img
-                    src="https://www.webcreationsbyjumpy.com/graphics/graphics/blinkies/blinkies/computers/images/net025.gif">
-                  <img src="https://adriansblinkiecollection.neocities.org/b1.gif">
-                  <img src="https://adriansblinkiecollection.neocities.org/c20.gif">
-                  <img src="https://adriansblinkiecollection.neocities.org/buttons/a106.jpg">
-                  <img src="https://adriansblinkiecollection.neocities.org/buttons/a109.gif">
-                  <img src="https://blinkies.cafe/b/display/0206-nyancat.gif">
-                  <img src="https://pixelsafari.neocities.org/blinkies/animal/catsunny.gif">
-                  <img src="https://blinkies.cafe/b/display/0175-splatoonoctolingorange.gif">
-                </div>
+              </div>
+              <div class="window-body">
+                <a href="https://coffeebug.neocities.org/webring"><img
+                    src="https://coffeebug.neocities.org/webringSmall.gif"></a>
+                <a href="https://nekoweb.org/"><img src="https://buttons.nekoweb.org/buttons/nekoweborg005.gif"></a>
+                <img
+                  src="https://external-media.spacehey.net/media/se_UDSE2dENEI7efPTGk6fT1GymBgsAVmPmHfbE4Bguc=/https://i.ibb.co/WKPSW2J/5d803765-1499-4d2d-aaeb-4062ba771ebe.gif">
+                <img
+                  src="https://external-media.spacehey.net/media/slX1-EElelrXm_i9Je6uSED8yRcVvmo92hBdu1M83QTw=/https://i.ibb.co/FH0gd85/799c38ade00e3a289633e27a603ef90b49647b7a.gif">
+                <img
+                  src="https://www.webcreationsbyjumpy.com/graphics/graphics/blinkies/blinkies/computers/images/net025.gif">
+                <img src="https://adriansblinkiecollection.neocities.org/b1.gif">
+                <img src="https://adriansblinkiecollection.neocities.org/c20.gif">
+                <img src="https://adriansblinkiecollection.neocities.org/buttons/a106.jpg">
+                <img src="https://adriansblinkiecollection.neocities.org/buttons/a109.gif">
+                <img src="https://blinkies.cafe/b/display/0206-nyancat.gif">
+                <img src="https://pixelsafari.neocities.org/blinkies/animal/catsunny.gif">
+                <img src="https://blinkies.cafe/b/display/0175-splatoonoctolingorange.gif">
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 </body>
 
 </html>
