@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .row {
+            display: flex;
+        }
+
+        /* Create three equal columns that sits next to each other */
+        .column {
+            flex: 33.33%;
+            padding: 5px;
+        }
+
+        body {
+            background: url('unas/b.gif');
+            color: white
+        }
+
+        .parent {
+            margin: 3px;
+            padding: 0px;
+            text-align: left;
+        }
+
+        .child {
+            display: inline-block;
+            padding: 3px 30px;
+            vertical-align: middle;
+        }
+
+        .flex-container {
+            gap: 10px;
+            display: flex;
+            flex-direction: row;
+        }
+
+        @media (max-width: 800px) {
+            .flex-container {
+                flex-direction: column;
+            }
+        }
+    </style>
+    <title>Kimi's Website</title>
+    <link rel="icon" type="image/x-icon" href="unas/favicon.ico">
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://unpkg.com/7.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+    <div class="window active" style="margin: 10px; width: fit-content;">
+        <div class="title-bar">
+            <div class="title-bar-text">Nyavbar </div>
+            <div class="title-bar-controls">
+                <button aria-label="Minimize"></button>
+                <button aria-label="Maximize"></button>
+                <button aria-label="Close"></button>
+            </div>
+        </div>
+        <div class="window-body clear has">
+            <p><a href="index.html">Home</a></a></p>
+            <p><a href="updates.html">Updates</a></p>
+        </div>
+    </div>
+    <div class="flex-container">
+        <div class="parent">
+            <div class="child">
+                <div class="window" style="margin: 0 auto; width: fit-content">
+                    <div class="title-bar">
+                        <div class="title-bar-text">Kimmie</div>
+                        <div class="title-bar-controls">
+                            <button aria-label="Minimize"></button>
+                            <button aria-label="Maximize"></button>
+                            <button aria-label="Close"></button>
+                        </div>
+                    </div>
+                    <div class="window-body">
+                        <table style="background-color: rgba(0, 0, 0, 0); border-collapse: collapse;">
+                            <tbody>
+                                <tr>
+                                    <th>
+                                        <img src="\Characters\Kimmie\KimmieArt\KimmieThumbnail.png"
+                                            style="max-height: 125px; border-radius: 10%;">
+                                    </th>
+                                    <th>
+                                        <h3 style="color:mediumblue; ">Kimmie <br> Tanoi</h3>
+                                    </th>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p style="font-size:16px">Birthday: June 17 | Age: 19 | Species: Shapeshifting slime | Nicknames:
+                            Kibi, Gibbick | Pronouns: any | Height: 182cm (in
+                            original form) </p>
+                        <p style="font-size:14px">A successful chemist from a young age,<br> Kimmie developed the main
+                            alternative to the Great
+                            Zapfish used <br> by areas not connected by Inkadian power systems using ink from Turf Wars
+                            and
+                            Anarchy/Ranked Battles,
+                            and developed significant
+                            riches from patenting the product <br>and monopolising all production, ensuring it is not used against his wishes. <br> During their research, they faced an accident
+                            in the labs which turned them into a water-based slime. <br> They're able to adjust their
+                            slime's entire physical and chemical composition, and
+                            they use this to make weapons they use dubiously legally in battle. </p>
+                        <b style="font-size:25px; ">Personality</b>
+                        <p style="font-size:14px">Kimmie is a playful yet kind individual, who will do almost anything
+                            to achieve his goals, as
+                            outlandish as they sometimes are. <br> They will always help out their friends, either in a
+                            physical or emotional aspect. <br> They enjoy headpats and cuddles, and is not immune to
+                            losing battles because of them. <br> Kimmie has a fighting spirit, which they channel into
+                            all their activities and interests. <br> Getting on Kimmie's bad side is not a good idea
+                            though, as they will VERY happily <br> use their abilties to make sure you will reconsider
+                            your
+                            actions or just kill you gleefully and smile as you suffer.</p>
+                        <b style="font-size:25px; ">Interests</b>
+                        <p style="font-size:14px">Due to their significant riches from their initial fuel development,
+                            they have been able to
+                            invest significantly in many vanity projects of his, <br> including a large robotics
+                            division of KTN Chemicals which is used to develop systems used in industry and day to day
+                            life. <br> Kimmie
+                            is also very involved in the Tableturf scene, using an alternative persona and appearing as
+                            an Inkling to avoid being spotted due to their fame. <br> They manage the local
+                            tournaments and provide a
+                            significant amount of funding, under a cover company to hide the fact Kimmie uses her big
+                            money to fund funny card game tournaments. <br> Additionally,
+                            Kimmie is a successful rally driver (winning 2 world championships) and martial arts practitioner, ensuring not to use their
+                            abilities. </p>
+
+                        <details>
+                            <summary style="font-size:25px;">Art of Kimi</summary>
+                            <table>
+                                <tr>
+
+                                    <th> <img src="\Characters\Kimmie\KimmieArt\catbutler.png"
+                                            style="max-height: 200px; border-radius: 10%;"> </th>
+                                    <th> <img src="\Characters\Kimmie\KimmieArt\horrorzuna.gif"
+                                            style="max-height: 125px; border-radius: 10%;"> </th>
+                                    <th><img src="\Characters\Kimmie\KimmieArt\hypnoshades_trans.png"
+                                            style="max-height: 200px; border-radius: 10%;"> </th>
+                                    <th><img src="\Characters\Kimmie\KimmieArt\IMG_0221.jpg"
+                                            style="max-height: 125px; border-radius: 10%;"> </th>
+                                    <th><img src="\Characters\Kimmie\KimmieArt\imondatHD.png"
+                                            style="max-height: 125px; border-radius: 10%;"> </th>
+                                    <th><img src="\Characters\Kimmie\KimmieArt\inksaji.png"
+                                            style="max-height: 125px; border-radius: 10%;"> </th>
+                                    <th><img src="\Characters\Kimmie\KimmieArt\Kimi_Fullbody_1_6.png"
+                                            style="max-height: 125px; border-radius: 10%;"> </th>
+                                </tr>
+                                <tr>
+                                    <th><img src="\Characters\Kimmie\KimmieArt\octokimibrasil.jpg"
+                                            style="max-height: 125px; border-radius: 10%;"> </th>
+                                    <th><img src="\Characters\Kimmie\KimmieArt\riji_monogatari.png"
+                                            style="max-height: 125px; border-radius: 10%;"> </th>
+                                    <th><img src="\Characters\Kimmie\KimmieArt\thstartofitall.png"
+                                            style="max-height: 125px; border-radius: 10%;"> </th>
+                                    <th><img src="\Characters\Kimmie\KimmieArt\ufo2.png"
+                                            style="max-height: 125px; border-radius: 10%;"></th>
+                                    <th><img src="\Characters\Kimmie\KimmieArt\vinstruck.png"
+                                            style="max-height: 125px; border-radius: 10%;"></th>
+                                </tr>
+                        </details>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+</body>
+
+</html>
